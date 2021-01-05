@@ -75,12 +75,12 @@ systemctl stop mysql mariadb
 Effectuer les opérations suivantes sur les deux noeuds herbergeant le serveur Apache et l'applicatif Centreon:
 
 Si vous utiliser Centreon 19.10:
-* [Déployer les dépôts 20.04](../../upgrade/upgrade-from-19-10.html#mise-à-jour-des-dépôts). Il est également nécessaire de mettre à jour les dépôts des modules de l'édition Business.
+* [Déployer les dépôts 20.10](../../upgrade/upgrade-from-19-10.html#mise-à-jour-des-dépôts). Il est également nécessaire de mettre à jour les dépôts des modules de l'édition Business.
 * [Mettre à jour les paquets Centreon](../../upgrade/upgrade-from-19-10.html#montée-de-version-de-la-solution-centreon)
 * [Réaliser les étapes supplémentaires](../../upgrade/upgrade-from-19-10.html#actions-complémentaires)
 
 Si vous utiliser Centreon 19.04:
-* [Déployer les dépôts 20.04](../../upgrade/upgrade-from-19-04.html#mise-à-jour-des-dépôts). Also those of the Business Edition modules if installed.
+* [Déployer les dépôts 20.10](../../upgrade/upgrade-from-19-04.html#mise-à-jour-des-dépôts). Also those of the Business Edition modules if installed.
 * [Mettre à jour les paquets Centreon](../../upgrade/upgrade-from-19-04.html#montée-de-version-de-la-solution-centreon)
 * [Réaliser les étapes supplémentaires](../../upgrade/upgrade-from-19-04.html#actions-complémentaires)
 
@@ -106,7 +106,7 @@ de supprimer la clef publique de root de /root/.ssh/authorized_keys.
 
 Vous pouvez désormais finaliser la mise à jour de Centreon via le wizard Web: 
 * Si vous êtiez en version 19.10, suivez ce [chapitre](../../upgrade/upgrade-from-19-10.html#finalisation-de-la-mise-à-jour).
-* Si vous êtiez en version 20.04, suivez ce [chapitre](../../upgrade/upgrade-from-19-04.html#finalisation-de-la-mise-à-jour).
+* Si vous êtiez en version 19.04, suivez ce [chapitre](../../upgrade/upgrade-from-19-04.html#finalisation-de-la-mise-à-jour).
 
 Ensuite, vérifiez que la commande de rechargement de Centreon-Broker pour le Serveur Central intègre bien la modification
 décrite [ici](installation-2-nodes.html#modification-de-la-commande-de-rechargement-de-cbd). Celle-ci est configurable via le menu
